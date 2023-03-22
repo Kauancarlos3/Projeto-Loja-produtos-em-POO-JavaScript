@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #fafbfc;
+}
+header {
+    background: #07c642;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    padding: 30px 50px;
+
+}
+
+.card{
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+    
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: #07c642;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #049933;
+    transition: all ease 0.3s;
+}
